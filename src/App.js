@@ -16,7 +16,7 @@ function App() {
     <CustomSelect/>
     <CustomAlerts/>
     </Box>
-    </div>
+    </div> 
   );
 }
 

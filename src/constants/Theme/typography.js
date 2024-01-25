@@ -1,0 +1,147 @@
+
+import { createTheme } from "@mui/material/styles";
+import { themePalette, secondary } from "./colors";
+
+export const themeTypography = createTheme(themePalette, {
+  typography: {
+    h1: {
+      fontFamily: "Montserrat",
+      fontSize: "32px",
+      lineHeight: "44px",
+      fontWeight: 700,
+      color: secondary[800],
+    },
+
+    h2: {
+      fontFamily: "Montserrat",
+      fontSize: "26px",
+      fontWeight: 700,
+      lineHeight: "36px",
+      color: secondary[800],
+    },
+    h3: {
+      fontFamily: "Montserrat",
+      fontSize: "22px",
+      fontWeight: 700,
+      lineHeight: "30px",
+      color: secondary[800],
+    },
+    h4: {
+      fontFamily: "Montserrat",
+      fontSize: "18px",
+      lineHeight: "24px",
+      fontWeight: 700,
+      color: secondary[800],
+    },
+    h5: {
+      fontFamily: "Montserrat",
+      fontSize: "14px",
+      lineHeight: "21px",
+      fontWeight: 700,
+      color: secondary[800],
+    },
+    sb1: {
+      fontFamily: "Montserrat",
+      fontSize: "24px",
+      lineHeight: "36x",
+      fontWeight: 600,
+      color: secondary[800],
+    },
+    sb2: {
+      fontFamily: "Montserrat",
+      fontSize: "22px",
+      lineHeight: "30x",
+      fontWeight: 600,
+      color: secondary[800],
+    },
+    sb3: {
+      fontFamily: "Montserrat",
+      fontSize: "18px",
+      lineHeight: "30x",
+      fontWeight: 600,
+      color: secondary[800],
+    },
+    sb4: {
+      fontFamily: "Montserrat",
+      fontSize: "16px",
+      lineHeight: "24x",
+      fontWeight: 600,
+      color: secondary[800],
+    },
+    sb5: {
+      fontFamily: "Montserrat",
+      fontSize: "14px",
+      lineHeight: "21x",
+      fontWeight: 600,
+      color: secondary[800],
+    },
+    sb6: {
+      fontFamily: "Montserrat",
+      fontSize: "12px",
+      lineHeight: "21x",
+      fontWeight: 600,
+      color: secondary[800],
+    },
+    m1: {
+      fontFamily: "Montserrat",
+      fontSize: "18px",
+      lineHeight: "28x",
+      fontWeight: 500,
+      color: secondary[800],
+    },
+    m2: {
+      fontFamily: "Montserrat",
+      fontSize: "16px",
+      lineHeight: "26x",
+      fontWeight: 500,
+      color: secondary[800],
+    },
+    m3: {
+      fontFamily: "Montserrat",
+      fontSize: "14px",
+      lineHeight: "28x",
+      fontWeight: 500,
+      color: secondary[800],
+    },
+    m4: {
+      fontFamily: "Montserrat",
+      fontSize: "12px",
+      lineHeight: "20x",
+      fontWeight: 500,
+      color: secondary[800],
+    },
+    r1: {
+      fontFamily: "Montserrat",
+      fontSize: "18px",
+      lineHeight: "28x",
+      fontWeight: 400,
+      color: secondary[800],
+    },
+    r2: {
+      fontFamily: "Montserrat",
+      fontSize: "16px",
+      lineHeight: "22x",
+      fontWeight: 400,
+      color: secondary[800],
+    },
+    r3: {
+      fontFamily: "Montserrat",
+      fontSize: "14px",
+      lineHeight: "22x",
+      fontWeight: 400,
+      color: secondary[800],
+    },
+    r4: {
+      fontFamily: "Montserrat",
+      fontSize: "12px",
+      lineHeight: "20x",
+      fontWeight: 400,
+      color: secondary[800],
+    },
+    // button: {
+    //   fontSize: "14px",
+    //   lineHeight: "20px",
+    //   fontWeight: 500,
+    // },
+  },
+});
